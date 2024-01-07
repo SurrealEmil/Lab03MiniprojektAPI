@@ -23,7 +23,7 @@ https://localhost:xxxx/person/{personId}/interest/{interestId}
 https://localhost:xxxx/person/{personId}/interest/{interestId}/link
 
 # ER-Diagram
-![Alt text](ER-Dig.drawio.png)
+![Alt text](Images/ER-Dig.drawio.png)
 
 # UML-Diagram
-![Alt text](UMLAPI.drawio.png)
+![Alt text](Images/UMLAPI.drawio.png)
