@@ -1,4 +1,9 @@
-﻿namespace Lab03MiniprojektAPI.Models
+﻿using Lab03MiniprojektAPI.Data;
+using Lab03MiniprojektAPI.Models.ViewModels;
+using Microsoft.EntityFrameworkCore;
+using System.Net;
+
+namespace Lab03MiniprojektAPI.Models
 {
     public class Person
     {
@@ -9,5 +14,6 @@
 
         public virtual ICollection<Interest> Interests { get; set; }
         public virtual ICollection<WebsiteLink> WebsiteLinks { get; set; }
+ 
     }
 }
