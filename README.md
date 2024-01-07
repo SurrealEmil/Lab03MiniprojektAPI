@@ -11,6 +11,11 @@ https://localhost:xxxx/person/{personId}/link
 - Associate a person with a new interest  
 // Make a new interest  
 https://localhost:xxxx/person/{personId}/interest  
+JSON exampel  
+{  
+	"title":"Space Exploration",  
+	"description":"A fascination with the exploration of outer space, including astronomy, space   missions, and the search for extraterrestrial life"  
+}   
 or  
 // Connect to existing interest  
 https://localhost:xxxx/person/{personId}/interest/{interestId}  
@@ -18,7 +23,7 @@ https://localhost:xxxx/person/{personId}/interest/{interestId}
 https://localhost:xxxx/person/{personId}/interest/{interestId}/link
 
 # ER-Diagram
-![Alt text](ER-DIA.drawio.png)
+![Alt text](ER-Dig.drawio.png)
 
 # UML-Diagram
 ![Alt text](UMLAPI.drawio.png)
